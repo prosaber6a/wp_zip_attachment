@@ -1,0 +1,34 @@
+.pro_zip_container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.pro_zip_select_box {
+    width: 100%;
+    font-size: 25px;
+}
+
+.parent_list_anchor {
+    text-decoration: none !important;
+    color: #3E3B72;
+}
+
+.parent_list_anchor_before {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#prozip_ajax_response {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pro_zip_btn {
+    background: #3E3B72;
+    color: #fff;
+}
